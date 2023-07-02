@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "build": "yarn tsc",
-    "start": "rm -rf node_modules && rm -rf dist && yarn && node dist/bot.js",
+    "build": "tsc",
+    "start": "node dist/bot.js",
     "dev": "env-cmd ts-node-dev src/bot.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
